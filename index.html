@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+
+  <body>
+    <div class="cointainer-fluid">
+      <table class="table table-bordered table-striped" id="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>#</th>
+            <th>Some</th>
+            <th>Sample</th>
+            <th>Text</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Johnny</td>
+            <td>Jerry</td>
+            <td>Berry</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Shoelaces</td>
+            <td>Clowns</td>
+            <td>Pumpkins</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>123-456</td>
+            <td>708-1999</td>
+            <td>677888-444</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="card">
+        <div class="card-header">Add a New Row Feature</div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="cell1">Cell 1</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cell1"
+                aria-describedby=""
+                placeholder="Enter Text"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cell2">Cell 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cell2"
+                placeholder="Enter Text"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cell3">Cell 3</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cell3"
+                placeholder="Enter Text"
+              />
+            </div>
+            <button type="button" id="submit" class="btn btn-primary">
+              Submit Additions
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
